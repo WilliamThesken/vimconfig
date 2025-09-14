@@ -15,3 +15,6 @@ inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
+
+" detect filetype
+autocmd FileType python setlocal tabstop=4 shiftwidth=4 expandtab smartindent
